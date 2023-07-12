@@ -17,4 +17,5 @@ jobs: # a collection of steps
           token-variable: SNYK
           monitor-on-build: true
           fail-on-issues: false
-          organization: devops-group
+          organization: devops-groug  
+          additional-arguments: --maven-aggregate-projects
