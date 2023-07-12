@@ -1,8 +1,6 @@
 version: 2.1
 orbs:
   snyk: snyk/snyk@1.7.0
-context: 
-  - Snyk
 
 jobs: # a collection of steps
 
@@ -16,7 +14,7 @@ jobs: # a collection of steps
           name: Maven Build
           command: 'mvn install' 
       - snyk/scan:
-          token-variable: SNYK_TOKEN
+          token-variable: SNYK
           monitor-on-build: true
           fail-on-issues: false
           organization: devops-group
