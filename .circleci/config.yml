@@ -18,4 +18,4 @@ jobs: # a collection of steps
           monitor-on-build: true
           fail-on-issues: false
           organization: devops-group  
-          additional-arguments: --all-projects
+          additional-arguments: --all-projects --target-reference=main --remote-repo-url=full-monorepo
