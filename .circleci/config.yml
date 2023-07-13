@@ -18,4 +18,4 @@ jobs: # a collection of steps
           monitor-on-build: true
           fail-on-issues: false
           organization: devops-group  
-          additional-arguments: --maven-aggregate-projects
+          additional-arguments: --all-projects
